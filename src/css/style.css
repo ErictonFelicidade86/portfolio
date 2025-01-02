@@ -740,4 +740,13 @@ a:hover .tooltip,
     .tab-list h3 {
         font-size: 2.3rem;
     }
+
+    .contact-form h3 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .contact-form .field-box textarea {
+        height: 13rem;
+    }
 }
