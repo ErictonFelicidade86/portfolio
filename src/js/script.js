@@ -24,12 +24,8 @@ navs.forEach((nav, idx) => {
 
         arrSecs.forEach(arrSecs => {
             if (arrSecs.classList.contains('active')) {
-                sections[4].classList.add('action-contact')
             }   
-        });
-        if (sections[0].classList.contains('active')){
-            sections[4].classList.remove('action-contact');
-        }    
+        });   
     })
 })
 
@@ -55,6 +51,12 @@ portFolioList.forEach((list, idx) => {
     })
 })
 
-setTimeout (() => {
-    sections[4].classList.remove('active')
-}, 1500);
+// Desativa o clique direito do mouse
+document.addEventListener('contextmenu', function (event) {
+    event.preventDefault();
+});
+
+// Desativa o atalho de copiar texto (Ctrl + C ou Cmd + C)
+document.addEventListener('copy', function (event) {
+    event.preventDefault();
+});
