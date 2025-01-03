@@ -13,5 +13,5 @@ Analista de Teste/QA especializado em automação de testes com foco em APIs e t
   <img align="center" alt="Ton-Javascript" heigh="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />               
   <img align="center" alt="Ton-Git" heigh="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />      
   <img align="center" alt="Ton-Vscode" heigh="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" />
-          
+  <img align="center" alt="Ton-Vercel" heigh="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original-wordmark.svg" />       
 </div>
