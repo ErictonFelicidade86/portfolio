@@ -1,0 +1,15 @@
+{
+  "home": "Início",
+  "about": "Sobre",
+  "resume": "Resumo",
+  "portfolio": "Portfólio",
+  "hello": "Olá Eu Sou",
+  "name": "Ericton Brito",
+  "profession": "Analista de Teste QA",
+  "description": "Analista de Teste QA especializado em automação de testes com foco em APIs e testes E2E.",
+  "download_cv": "Baixar CV",
+  "job_title": "Analista de Teste QA!",
+  "experience_desc": "Tenho experiência em garantia da qualidade de software, com foco em testes automatizados de API usando Cypress, Robot Framework e K6. Também implemento fluxos completos de testes E2E com Cypress e Playwright, assegurando desempenho e funcionalidade integrada. Sou proativo, organizado e solucionador de problemas, aplicando metodologias ágeis para planejar e colaborar com o time de desenvolvimento."
+  
+}
+

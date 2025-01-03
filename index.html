@@ -18,43 +18,50 @@
 </head>
 
 <body>
-    
+
     <!-- navbar -->
     <nav class="nav">
         <ul class="nav-list">
             <li class="active">
                 <i class='bx bx-home-alt'></i>
-                <span class="tooltip">Home</span>
+                <span class="tooltip" data-i18n="home">Início</span>
             </li>
             <li>
                 <i class='bx bx-user'></i>
-                <span class="tooltip">Sobre</span>
+                <span class="tooltip" data-i18n="about">Sobre</span>
             </li>
             <li>
                 <i class='bx bx-detail'></i>
-                <span class="tooltip">Resumo</span>
+                <span class="tooltip" data-i18n="resume">Resumo</span>
             </li>
             <li>
                 <i class='bx bx-briefcase'></i>
-                <span class="tooltip">Portfolio</span>
+                <span class="tooltip" data-i18n="portfolio">Portfolio</span>
             </li>
         </ul>
     </nav>
 
     <div class="container">
         <div class="box">
-
+            
             <!-- home section -->
              <section class="section home active">
+                <!-- tradução -->
+                <div class="language-switcher">
+                    <img src="src/assets/img/brasil.png" alt="Português" onclick="setLanguage('pt')" style="width: 30px; cursor: pointer;" />
+                    <img src="src/assets/img/usa.png" alt="English" onclick="setLanguage('en')" style="width: 30px; cursor: pointer;" />
+                </div>
+                                
+                
                 <div class="home-info">
-                    <h3>Olá Eu Sou</h3>
-                    <h1>Ericton Brito</h1>
-                    <h3>QA Tester Software</h3>
-                    <p class="desc">
-                        <strong>Analista de Teste/QA especializado em automação de testes com foco em APIs e testes E2E.</strong> 
+                    <h3 data-i18n="hello">Olá Eu Sou</h3>
+                    <h1 data-i18n="name">Ericton Brito</h1>
+                    <h3 data-i18n="profession">Analista de Teste QA</h3>
+                    <p class="desc" data-i18n="description">
+                        <strong>Analista de Teste QA especializado em automação de testes com foco em APIs e testes E2E.</strong> 
                     </p>
                     <div class="btn-sci">
-                        <a href="src/files/Ericton_Brito.pdf" download="Curriculo_Ericton_Brito.pdf" class="btn">Dowload CV</a>
+                        <a href="src/files/Ericton_Brito.pdf" download="Curriculo_Ericton_Brito.pdf" class="btn" data-i18n="download_cv">Baixar CV</a>
                         <div class="sci">
                             <a href="https://github.com/ErictonFelicidade86"  target="_blank">
                                 <i class='bx bxl-github' ></i>
@@ -85,6 +92,11 @@
 
             <!-- about section -->
              <section class="section about">
+                <!-- tradução -->
+                <div class="language-switcher">
+                    <img src="src/assets/img/brasil.png" alt="Português" onclick="setLanguage('pt')" style="width: 30px; cursor: pointer;" />
+                    <img src="src/assets/img/usa.png" alt="English" onclick="setLanguage('en')" style="width: 30px; cursor: pointer;" />
+                </div>
                 <div class="img-wrapper">
                     <div class="img-box about-img">
                         <img src="src/assets/img/img_3.png" alt="img">
@@ -92,9 +104,9 @@
                 </div>
                 <!-- about Info -->
                 <div class="about-info">
-                    <h2 class="title">Sobre</h2>
-                    <h3>QA Tester Software!</h3>
-                    <p class="desc">
+                    <h2 class="title" data-i18n="about">Sobre</h2>
+                    <h3 data-i18n="job_title">Analista de Teste QA!</h3>
+                    <p data-i18n="experience_desc" class="desc">
                         Tenho experiência em garantia da qualidade de software, 
                         com foco em testes automatizados de API usando Cypress, Robot Framework e K6. 
                         Também implemento fluxos completos de testes E2E com Cypress e Playwright, 
@@ -107,6 +119,11 @@
 
             <!-- resume (experience, skills, education) section -->
             <section class="section resume">
+                <!-- tradução -->
+                <div class="language-switcher">
+                    <img src="src/assets/img/brasil.png" alt="Português" onclick="setLanguage('pt')" style="width: 30px; cursor: pointer;" />
+                    <img src="src/assets/img/usa.png" alt="English" onclick="setLanguage('en')" style="width: 30px; cursor: pointer;" />
+                </div>
                 <h2 class="title">Resumo</h2>
                 <div class="tab-box">
                     <div class="tab-list resume-list active">
@@ -124,7 +141,7 @@
                     <div class="tab-grid resume-box experience active">
                         <div class="tab-item resume-item">
                             <h4>2021 - 2024</h4>
-                            <h4>Analista de Teste/QA</h4>
+                            <h4>Analista de Teste QA</h4>
                             <h4>Grupo ICTS</h4>
                             <p>
                                 Analista de Teste\QA: Minha experiência em testes automatizados de API com Cypress, Robot, K6, JMeter,
@@ -330,6 +347,11 @@
 
             <!-- portfolio (work, service) section -->
             <secttion class="section portfolio ">
+                <!-- tradução -->
+                <div class="language-switcher">
+                    <img src="src/assets/img/brasil.png" alt="Português" onclick="setLanguage('pt')" style="width: 30px; cursor: pointer;" />
+                    <img src="src/assets/img/usa.png" alt="English" onclick="setLanguage('en')" style="width: 30px; cursor: pointer;" />
+                </div>
                 <h2 class="title">Portfólio</h2>
                 <div class="tab-box">
                     <div class="tab-list portfolio-list active">
@@ -380,78 +402,6 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="tab-item portfolio-item">
-                            <div class="work-img">
-                                <img src="src/img/Cypress.webp" alt="img">
-                            </div>
-                            <div class="work-info">
-                                <h4>Teste de API com Cypress</h4>
-                                <p>Workflow de testes contínuos em Cypress de API no Github Actions</p>
-                                <div class="tech-used">
-                                    <p>Cypress, Javacript, Node.js</p>
-                                </div>
-                                <div class="portfolio-icon work-icon">
-                                    <a href="https://github.com/ErictonFelicidade86/Testando-API-com-Cypress" target="_blank">
-                                        <i class="bx bxl-github"></i>
-                                        <span class="tooltip">Github</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-item portfolio-item">
-                            <div class="work-img">
-                                <img src="src/img/Cypress.webp" alt="img">
-                            </div>
-                            <div class="work-info">
-                                <h4>Teste de API com Cypress</h4>
-                                <p>Workflow de testes contínuos em Cypress de API no Github Actions</p>
-                                <div class="tech-used">
-                                    <p>Cypress, Javacript, Node.js</p>
-                                </div>
-                                <div class="portfolio-icon work-icon">
-                                    <a href="https://github.com/ErictonFelicidade86/Testando-API-com-Cypress" target="_blank">
-                                        <i class="bx bxl-github"></i>
-                                        <span class="tooltip">Github</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-item portfolio-item">
-                            <div class="work-img">
-                                <img src="src/img/Cypress.webp" alt="img">
-                            </div>
-                            <div class="work-info">
-                                <h4>Teste de API com Cypress</h4>
-                                <p>Workflow de testes contínuos em Cypress de API no Github Actions</p>
-                                <div class="tech-used">
-                                    <p>Cypress, Javacript, Node.js</p>
-                                </div>
-                                <div class="portfolio-icon work-icon">
-                                    <a href="https://github.com/ErictonFelicidade86/Testando-API-com-Cypress" target="_blank">
-                                        <i class="bx bxl-github"></i>
-                                        <span class="tooltip">Github</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-item portfolio-item">
-                            <div class="work-img">
-                                <img src="src/img/Cypress.webp" alt="img">
-                            </div>
-                            <div class="work-info">
-                                <h4>Teste de API com Cypress</h4>
-                                <p>Workflow de testes contínuos em Cypress de API no Github Actions</p>
-                                <div class="tech-used">
-                                    <p>Cypress, Javacript, Node.js</p>
-                                </div>
-                                <div class="portfolio-icon work-icon">
-                                    <a href="https://github.com/ErictonFelicidade86/Testando-API-com-Cypress" target="_blank">
-                                        <i class="bx bxl-github"></i>
-                                        <span class="tooltip">Github</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div> -->
                     </div>
                     
                     <div class="tab-grid portfolio-box service">
@@ -495,6 +445,7 @@
 
     <!-- JavaScript file script -->
     <script src="src/js/script.js"></script>
+    <script src="src/js/i18n.js"></script>
     
 </body>
 
