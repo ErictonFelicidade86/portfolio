@@ -18,7 +18,6 @@
 </head>
 
 <body>
-
     <!-- navbar -->
     <nav class="nav">
         <ul class="nav-list">
@@ -43,55 +42,21 @@
 
     <div class="container">
         <div class="box">
-            
             <!-- home section -->
-             <section class="section home active">
-                <!-- tradução -->
+            <section class="section home active">
                 <div class="language-switcher">
-                    <img src="src/assets/img/brasil.png" alt="Português" onclick="setLanguage('pt')" style="width: 30px; cursor: pointer; margin-right: 4px;"/>
+                    <img src="src/assets/img/brasil.png" alt="Português" onclick="setLanguage('pt')" style="width: 30px; cursor: pointer; margin-right: 4px;" />
                     <img src="src/assets/img/usa.png" alt="English" onclick="setLanguage('en')" style="width: 30px; cursor: pointer;" />
                 </div>
-                                
-                <div class="home-info">
-                    <h3 data-i18n="hello">Olá Eu Sou</h3>
-                    <h1 data-i18n="name">Ericton Brito</h1>
-                    <h3 data-i18n="profession">Analista de Teste QA</h3>
-                    <p class="desc" data-i18n="description">
-                        <strong>Analista de Teste QA especializado em automação de testes com foco em APIs e testes E2E.</strong> 
-                    </p>
-                    <div class="btn-sci">
-                        <a href="src/files/Ericton_Brito.pdf" download="Curriculo_Ericton_Brito.pdf" class="btn" data-i18n="download_cv">Baixar CV</a>
-                        <div class="sci">
-                            <a href="https://github.com/ErictonFelicidade86"  target="_blank">
-                                <i class='bx bxl-github' ></i>
-                                <span class="tooltip">Github</span>
-                            </a>
-                            <a href="https://www.linkedin.com/in/ericton-brito-1b511b14b/"  target="_blank">
-                                <i class='bx bxl-linkedin' ></i>
-                                <span class="tooltip">Linkedin</span>
-                            </a>
-                            <a href="https://gitlab.com/Erictondeveloper"  target="_blank">
-                                <i class='bx bxl-gitlab' ></i>
-                                <span class="tooltip">Gitlab</span>
-                            </a>
-                            <a href="https://api.whatsapp.com/send/?phone=5592984660806&text&type=phone_number&app_absent=0"  target="_blank">
-                                <i class='bx bxl-whatsapp'></i>
-                                <span class="tooltip">WhatApps</span>
-                            </a>                            
-                        </div>
-                    </div>
-                </div>
-
+                <div id="home-info" class="home-info"></div>
                 <div class="img-wrapper">
                     <div class="img-box home-img">
                         <img src="src/assets/img/img_3.png" alt="img">
                     </div>
                 </div>
-             </section>
-
+            </section>
             <!-- about section -->
              <section class="section about">
-                <!-- tradução -->
                 <div class="language-switcher">
                     <img src="src/assets/img/brasil.png" alt="Português" onclick="setLanguage('pt')" style="width: 30px; cursor: pointer; margin-right: 4px;" />
                     <img src="src/assets/img/usa.png" alt="English" onclick="setLanguage('en')" style="width: 30px; cursor: pointer;" />
@@ -102,23 +67,10 @@
                     </div>
                 </div>
                 <!-- about Info -->
-                <div class="about-info">
-                    <h2 class="title" data-i18n="about">Sobre</h2>
-                    <h3 data-i18n="job_title">Analista de Teste QA!</h3>
-                    <p data-i18n="experience_desc" class="desc">
-                        Tenho experiência em garantia da qualidade de software, 
-                        com foco em testes automatizados de API usando Cypress, Robot Framework e K6. 
-                        Também implemento fluxos completos de testes E2E com Cypress e Playwright, 
-                        assegurando desempenho e funcionalidade integrada. Sou proativo, organizado e 
-                        solucionador de problemas, aplicando metodologias ágeis para planejar e colaborar com o time de 
-                        desenvolvimento.
-                    </p>
-                </div>
+                <div id="about-info" class="about-info"></div>
              </section>
-
             <!-- resume (experience, skills, education) section -->
             <section class="section resume">
-                <!-- tradução -->
                 <div class="language-switcher">
                     <img src="src/assets/img/brasil.png" alt="Português" onclick="setLanguage('pt')" style="width: 30px; cursor: pointer; margin-right: 4px;" />
                     <img src="src/assets/img/usa.png" alt="English" onclick="setLanguage('en')" style="width: 30px; cursor: pointer;" />
@@ -135,223 +87,22 @@
                         <h3 data-i18n="education">Educacional</h3>
                     </div>
                 </div>
-                
                 <div class="tab-wrapper">
-                    <div class="tab-grid resume-box experience active">
-                        <div class="tab-item resume-item">
-                            <h4>2021 - 2024</h4>
-                            <h4 data-i18n="profession">Analista de Teste QA</h4>
-                            <h4 data-i18n="company">Grupo ICTS</h4>
-                            <p data-i18n="job_desc_QA">
-                                Analista de Teste QA: Minha experiência em testes automatizados de API com Cypress, Robot, K6, JMeter,
-                                Insomnia e Swagger para documentação de API. Realização de testes automatizados no frontend usando
-                                Cypress e Playwright, além de testes manuais para aplicações mobile. Gerenciamento de falhas utilizando
-                                QASE, Trello e GitLab, com aplicação de metodologias ágeis (Scrum e Kanban) para otimização de
-                                processos.
-                            </p>
-                        </div>
-                        <div class="tab-item resume-item">
-                            <h4>2020 - 2021</h4>
-                            <h4 data-i18n="intern">Estagiário</h4>
-                            <h4 data-i18n="company">Grupo ICTS</h4>
-                            <p data-i18n="job_desc_intern_dev">
-                                Desenvolvimento web Frontend: Criação de interfaces responsivas com HTML5, CSS3, Javacript,
-                                Typescipt e Angular 10, Linux.
-                                Execução de testes unitários durante o desenvolvimento da aplicação.
-                            </p>
-                        </div>
-                        <div class="tab-item resume-item">
-                            <h4>2018 - 2020</h4>
-                            <h4 data-i18n="intern">Estagiário</h4>
-                            <h4>INDT</h4>
-                            <p data-i18n="job_desc_intern_dev_test">
-                                Desenvolvimento web Frontend: Criação de interfaces responsivas com HTML5, CSS3, Javacript,
-                                Typescipt e Angular 6, Linux.Execução de testes unitários durante o desenvolvimento da aplicação.
-                                Teste de Software: Execução de testes manuais e documentação detalhada de não
-                                conformidades. Colaboração com equipes de desenvolvimento para definição de cenários de teste.
-                            </p>
-                        </div>
-                        <div class="tab-item resume-item">
-                            <h4>2018 - 2028</h4>
-                            <h4 data-i18n="programmer">Programador</h4>
-                            <h4>Tarkuss</h4>
-                            <p data-i18n="job_desc_intern_programmer">
-                                Desenvolvimento Frontend: Suporte no desenvolvimento de interfaces frontend utilizando
-                                Bootstrap Criação de layouts responsivos e otimização de desempenho em aplicações web.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="tab-grid resume-box skills">
-                        <div class="tab-item resume-item">
-                            <i class='bx bxl-javascript' ></i>
-                            <p>Javacript</p>
-                        </div>
-                        <div class="tab-item resume-item">              
-                            <i class="devicon-cypressio-plain"></i>
-                            <p>Cypress</p>
-                        </div>
-                        <div class="tab-item resume-item">
-                            <i class="devicon-playwright-plain"></i>
-                            <p>Playwright</p>
-                        </div>
-                        <div class="tab-item resume-item">
-                            <i class="devicon-k6-original"></i>
-                            <p>K6</p>
-                        </div>
-                        <div class="tab-item resume-item">
-                            <i class="devicon-insomnia-plain"></i>
-                            <p>Insomnia</p>
-                        </div>
-                        <div class="tab-item resume-item">   
-                            <i class="devicon-postman-plain"></i>
-                            <p>Postman</p>
-                        </div>
-                        <div class="tab-item resume-item">
-                            <i class='bx bxl-typescript' ></i>
-                            <p>Typescipt</p>
-                        </div>
-                        <div class="tab-item resume-item">
-                            <i class='bx bxl-git' ></i>
-                            <p>Git</p>
-                        </div>
-                        <div class="tab-item resume-item">  
-                            <i class="devicon-swagger-plain"></i>
-                            <p>Swagger</p>
-                        </div>
-                        <div class="tab-item resume-item">
-                            <i class='bx bxl-angular' ></i>
-                            <p>Angular</p>
-                        </div>
-                        <div class="tab-item resume-item">
-                            <i class="devicon-ubuntu-plain"></i>
-                            <p>Ubuntu</p>
-                        </div>
-                        <div class="tab-item resume-item">
-                            <i class='bx bxl-docker' ></i>
-                            <p>Docker</p>
-                        </div>
-                        <div class="tab-item resume-item">
-                            <i class="devicon-junit-plain"></i>
-                            <p>Junit</p>
-                        </div>
-                        <div class="tab-item resume-item">
-                            <i class='bx bxl-bootstrap' ></i>
-                            <p>Bootstrap</p>
-                        </div>
-                        <div class="tab-item resume-item">
-                            <i class='bx bxl-html5' ></i>
-                            <p>HTML</p>
-                        </div>
-                        <div class="tab-item resume-item">
-                            <i class='bx bxl-css3' ></i>
-                            <p>CSS</p>
-                        </div>
-                        <div class="tab-item resume-item">
-                            <i class="devicon-sass-original"></i>
-                            <p>SCSS</p>
-                        </div>   
-                        <div class="tab-item resume-item">
-                            <i class='bx bxl-java' ></i>
-                            <p>Java</p>
-                        </div>
-                        <div class="tab-item resume-item">
-                            <i class='bx bxl-nodejs' ></i>
-                            <p>Node.js</p>
-                        </div>
-                        <div class="tab-item resume-item">
-                            <i class='bx bxl-mongodb' ></i>
-                            <p>MongoDB</p>
-                        </div>
-                        <div class="tab-item resume-item">
-                            <i class='bx bxl-docker' ></i>
-                            <p>Postgress</p>
-                        </div>
-                        <div class="tab-item resume-item">
-                            <i class="devicon-yarn-original"></i>
-                            <p>Yarn</p>
-                        </div>
-                        <div class="tab-item resume-item">
-                            <i class="devicon-githubactions-plain"></i>
-                            <p>GitHub Action</p>
-                        </div>
-                        <div class="tab-item resume-item">
-                            <i class="devicon-vscode-plain"></i>
-                            <p>Visual Studio Code</p>
-                        </div>
-                        <div class="tab-item resume-item">
-                            <i class="devicon-vuejs-plain"></i>
-                            <p>Vue.js</p>
-                        </div>
-                    </div>
-
-                    <div class="tab-grid resume-box education">
-                        <div class="tab-item resume-item">
-                            <h4 data-i18n="status_progress">2024 - Andamento</h4>
-                            <h4 data-i18n="course_pos">MBA em Gestão da Qualidade em Software</h4>
-                            <h4 data-i18n="title_pos_gradu">Pós-Graduação</h4>
-                            <p data-i18n="faveni">Faculdade Venda Nova do Imigrante - FAVENI</p>
-                        </div>
-                        <div class="tab-item resume-item">
-                            <h4 data-i18n="completed">2018 - 2021 - Concluída</h4>
-                            <h4 data-i18n="course_grad">Sistema de Informação</h4>
-                            <h4 data-i18n="title_gradu">Graduação</h4>
-                            <p data-i18n="uninorte">Centro Universitário do Norte - UNINORTE</p>
-                        </div>
-                        <div class="tab-item resume-item">
-                            <h4>2024</h4>
-                            <h4 data-i18n="title_desc_course">Dual Experience com Cypress e CodeceptJS</h4>
-                            <h4 data-i18n="title_course">Curso</h4>
-                            <p>Udemy</p>
-                        </div>
-                        <div class="tab-item resume-item">
-                            <h4>2024</h4>
-                            <h4 data-i18n="title_desc_course_2">Testes Contínuo em Cypress no Github Actions</h4>
-                            <h4 data-i18n="title_course">Curso</h4>
-                            <p>Udemy</p>
-                        </div>
-                        <div class="tab-item resume-item">
-                            <h4>2024</h4>
-                            <h4 data-i18n="title_desc_course_3">Testando API Rest com Rest-Assured</h4>
-                            <h4 data-i18n="title_course">Curso</h4>
-                            <p>Udemy</p>
-                        </div>
-                        <div class="tab-item resume-item">
-                            <h4>2024</h4>
-                            <h4>Playwright eXpress</h4>
-                            <h4 data-i18n="title_course">Curso</h4>
-                            <p>Udemy</p>
-                        </div>
-                        <div class="tab-item resume-item">
-                            <h4>2023</h4>
-                            <h4 data-i18n="title_desc_course_5">Testando API REST com MongoDb e RabbitMQ em Cypress</h4>
-                            <h4 data-i18n="title_course">Curso</h4>
-                            <p>Udemy</p>
-                        </div>
-                        <div class="tab-item resume-item">
-                            <h4>2022</h4>
-                            <h4 data-i18n="title_desc_course_6">Teste de Software</h4>
-                            <h4 data-i18n="title_course">Curso</h4>
-                            <p>Gokurso</p>
-                        </div>
-                        <div class="tab-item resume-item">
-                            <h4>2022</h4>
-                            <h4 data-i18n="title_desc_course_7">Javacript para QA</h4>
-                            <h4 data-i18n="title_course">Curso</h4>
-                            <p>QAxperience</p>
-                        </div>
-                    </div>
+                    <!--Experience-->
+                    <div id="experience-container" class="tab-grid resume-box experience active"></div>
+                    <!--Skills-->
+                    <div id="skills-container" class="tab-grid resume-box skills"></div>
+                    <!--Education-->
+                    <div id="education-container" class="tab-grid resume-box education"></div>
                 </div>
             </section>
-
             <!-- portfolio (work, service) section -->
             <secttion class="section portfolio ">
-                <!-- tradução -->
                 <div class="language-switcher">
                     <img src="src/assets/img/brasil.png" alt="Português" onclick="setLanguage('pt')" style="width: 30px; cursor: pointer; margin-right: 4px;" />
                     <img src="src/assets/img/usa.png" alt="English" onclick="setLanguage('en')" style="width: 30px; cursor: pointer;" />
                 </div>
-                <h2 class="title" data-i18n="portfolio">Portfólio</h2>
+                <h2 class="title" data-i18n="portfolio">{{portfolio.title}}</h2>
                 <div class="tab-box">
                     <div class="tab-list portfolio-list active">
                         <h3 data-i18n="title_work">Meu Trabralho</h3>
@@ -360,85 +111,11 @@
                         <h3 data-i18n="title_service">Meu Serviço</h3>
                     </div>
                 </div>
-
                 <div class="tab-wrapper">
-                    <div class="tab-grid portfolio-box work active">
-                        <div class="tab-item portfolio-item">
-                            <div class="work-img">
-                                <img src="src/assets/img/teste_api.webp" alt="img">
-                            </div>
-                            <div class="work-info">
-                                <h4 data-i18n="test_api">Teste de API com Cypress</h4>
-                                <p data-i18n="desc_work">
-                                    Workflow de testes contínuos em Cypress de API no Github Actions
-                                </p>
-                                <div class="tech-used">
-                                    <p>Cypress, Javacript, Node.js</p>
-                                </div>
-                                <div class="portfolio-icon work-icon">
-                                    <a href="https://github.com/ErictonFelicidade86/Testando-API-com-Cypress" target="_blank">
-                                        <i class="bx bxl-github"></i>
-                                        <span class="tooltip">Github</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-item portfolio-item">
-                            <div class="work-img">
-                                <img src="src/assets/img/portfolio.png" alt="img">
-                            </div>
-                            <div class="work-info">
-                                <h4 data-i18n="my_portfolio">Meu Portfólio</h4>
-                                <p data-i18n="desc_work_2">
-                                    Meu portfólio é uma aplicação interativa desenvolvida com HTML5, CSS3 e JavaScript, 
-                                    projetada para apresentar minhas habilidades, projetos e experiência profissional de forma criativa e funcional.</p>
-                                <div class="tech-used">
-                                    <p>HTML5, CSS3, Javacript, Vercel</p>
-                                </div>
-                                <div class="portfolio-icon work-icon">
-                                    <a href="https://github.com/ErictonFelicidade86/portfolio" target="_blank">
-                                        <i class="bx bxl-github"></i>
-                                        <span class="tooltip">Github</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="tab-grid portfolio-box service">
-                        <div class="tab-item portfolio-item">
-                            <div class="portfolio-icon service-icon">
-                                <i class="bx bx-code-alt icon"></i>
-                            </div>
-                            <h4 data-i18n="title_frontend">Desenvolvedor FULL Frontend</h4>
-                            <p data-i18n="desc_frontend">
-                                Tenho experiência no desenvolvimento de sites e aplicações web utilizando Angular, 
-                                JavaScript, TypeScript e SCSS, garantindo interfaces modernas e responsivas.
-                            </p>
-                        </div>
-                        <div class="tab-item portfolio-item">
-                            <div class="portfolio-icon service-icon">
-                                <i class='bx bx-bug-alt icon'></i>
-                            </div>
-                            <h4 data-i18n="title_automated_api">Testes Automatizados de APIs</h4>
-                            <p data-i18n="desc_automated_api">
-                                Possuo experiência em testes manuais e automatizados, abrangendo usabilidade,
-                                performance, stress, funcionais e não funcionais. Utilizo ferramentas como
-                                Cypress, Robot Framework, Rest-Assured, Insomnia, Postman e K6, além de elaborar e documentar planos de teste.
-                            </p>
-                        </div>
-                        <div class="tab-item portfolio-item">
-                            <div class="portfolio-icon service-icon">
-                                <i class='bx bx-food-menu icon'></i>
-                            </div>
-                            <h4 data-i18n="title_e2e">Testes Automatizados E2E</h4>
-                            <p data-i18n="desc_e2e">
-                                Realizo testes manuais e automatizados ponta a ponta, cobrindo usabilidade, performance, stress, 
-                                funcionais, não funcionais e exploratórios. Trabalho com ferramentas como 
-                                Cypress, Playwright e Robot Framework para garantir a qualidade total do produto.
-                            </p>
-                        </div>
-                    </div>
+                    <!--Work-->
+                    <div id="portfolio-container" class="tab-grid portfolio-box work active"></div>
+                    <!--Service-->
+                    <div id="services-container" class="tab-grid portfolio-box service"></div>
                 </div>
             </secttion>
         </div>
@@ -447,7 +124,14 @@
     <!-- JavaScript file script -->
     <script src="src/js/script.js"></script>
     <script src="src/js/i18n.js"></script>
-    
+    <script src="src/js/components/home/domHome.js"></script>
+    <script src="src/js/components/about/domAbout.js"></script>
+    <script src="src/js/components/experience/domExperience.js"></script>
+    <script src="src/js/components/skill/domSkill.js"></script>
+    <script src="src/js/components/education/domEducation.js"></script>
+    <script src="src/js/components/work/domWork.js"></script>
+    <script src="src/js/components/service/domService.js"></script>
+    <script src="src/assets/utils/const.js"></script>
 </body>
 
 </html>
