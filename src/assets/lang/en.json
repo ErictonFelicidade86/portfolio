@@ -1,4 +1,5 @@
 {
+  "abaName": "Ericton QA Test Analyst",
   "home": "Home",
   "about": "About",
   "resume": "Resume",
@@ -11,6 +12,7 @@
   "job_title": "QA Test Analyst!",
   "experience_desc": "I have experience in software quality assurance, focusing on automated API testing using Cypress, Robot Framework, and K6. I also implement complete E2E testing flows with Cypress and Playwright, ensuring performance and integrated functionality. I am proactive, organized, and a problem solver, applying agile methodologies to plan and collaborate with the development team.",
   "experience": "Experience",
+  "skill": "Skill",
   "education": "Education",
   "intern": "Intern",
   "programmer": "Programmer",
