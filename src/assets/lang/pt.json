@@ -1,4 +1,5 @@
 {
+  "abaName": "Ericton Analista de Teste QA",
   "home": "Início",
   "about": "Sobre",
   "resume": "Resumo",
@@ -12,6 +13,7 @@
   "experience_desc": "Tenho experiência em garantia da qualidade de software, com foco em testes automatizados de API usando Cypress, Robot Framework e K6. Também implemento fluxos completos de testes E2E com Cypress e Playwright, assegurando desempenho e funcionalidade integrada. Sou proativo, organizado e solucionador de problemas, aplicando metodologias ágeis para planejar e colaborar com o time de desenvolvimento.",
   "experience": "Experiência",
   "education": "Educação",
+  "skill": "Skill",
   "intern": "Estagiário",
   "programmer": "Programador",
   "job_desc_QA": "Analista de Teste QA: Minha experiência em testes automatizados de API com Cypress, Robot, K6, JMeter, Insomnia e Swagger para documentação de API. Realização de testes automatizados no frontend usando Cypress e Playwright, além de testes manuais para aplicações mobile. Gerenciamento de falhas utilizando QASE, Trello e GitLab, com aplicação de metodologias ágeis (Scrum e Kanban) para otimização de processos.",
