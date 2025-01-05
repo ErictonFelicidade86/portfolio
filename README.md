@@ -1,8 +1,23 @@
-# Meu Portfolio
+# 📂 **Meu Portfólio Pessoal - 2025**
 
-## Sobre
+Bem-vindo ao repositório do meu portfólio pessoal! 🎉 Este projeto foi desenvolvido para apresentar minhas habilidades técnicas, projetos e trajetória profissional. Ele reflete minha dedicação ao aprendizado contínuo.
 
-Analista de Teste/QA especializado em automação de testes com foco em APIs e testes E2E.
+## 🚀 **Tecnologias Utilizadas**
+
+Este portfólio foi construído utilizando uma combinação de tecnologias essenciais para desenvolvimento web:
+
+- **HTML5**: Estrutura semântica e bem organizada.
+- **CSS3**: Estilização com foco em design moderno, responsividade e experiência do usuário.
+- **JavaScript**: Funcionalidades interativas e dinâmicas, agregando valor à navegação.
+- **i18n (Internacionalização)**: Suporte a múltiplos idiomas, tornando o portfólio acessível a um público global.
+- **Vercel**: Plataforma de hospedagem o portfólio.
+
+## 🌐 **Destaques do Projeto**
+- Design responsivo para dispositivos móveis, tablets.
+- Experiência e integrada com i18n.
+- Hospedagem confiável e rápida com Vercel.
+
+### 🔗 **Acesse meu portfólio online: [ericton-brito.vercel.app](https://ericton-brito.vercel.app/)**
 
 <hr>
 
