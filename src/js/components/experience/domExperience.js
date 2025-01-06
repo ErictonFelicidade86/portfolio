@@ -40,7 +40,7 @@ const experienceList = [
       },
     },
     {
-      period: "2018 - 2028",
+      period: "2018 - 2018",
       role: "Programador",
       company: "Tarkuss",
       description: `Desenvolvimento Frontend: Suporte no desenvolvimento de interfaces frontend utilizando
