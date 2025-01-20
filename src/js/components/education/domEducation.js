@@ -24,40 +24,79 @@ const educationList = [
       },
     },
     {
-      year: "2024",
-      course: "Dual Experience com Cypress e CodeceptJS",
+      year: "2025 - Andamento",
+      course: "Testes de Aplicações Modernas com Cypress",
       degree: "Curso",
       institution: "Udemy",
       dataI18n: {
-        course: "title_desc_course",
+        year: "status_progress_2",
+        course: "title_desc_course_10",
         degree: "title_course",
       },
     },
     {
-      year: "2024",
+      year: "2025 - Concluído",
+      course: "Automação Web - Cypress e Cucumber",
+      degree: "Curso",
+      institution: "Udemy",
+      dataI18n: {
+        year: "course_completed",
+        course: "title_desc_course_9",
+        degree: "title_course",
+      },
+    },
+    {
+      year: "2025 - Concluído",
+      course: "Testes End-To-End com Cypress",
+      degree: "Curso",
+      institution: "Udemy",
+      dataI18n: {
+        year: "course_completed",
+        course: "title_desc_course_8",
+        degree: "title_course",
+      },
+    },
+    {
+      year: "2024 - Concluído",
+      course: "Dual Experience com Cypress e CodeceptJS",
+      degree: "Curso",
+      institution: "Udemy",
+      dataI18n: {
+        year: "course_completed_4",
+        course: "title_desc_course_4",
+        degree: "title_course",
+      },
+    },
+    {
+      year: "2024 - Concluído",
       course: "Testes Contínuo em Cypress no Github Actions",
       degree: "Curso",
       institution: "Udemy",
       dataI18n: {
+        year: "course_completed_4",
         course: "title_desc_course_2",
         degree: "title_course",
       },
     },
     {
-      year: "2024",
+      year: "2024 - Concluído",
       course: "Testando API Rest com Rest-Assured",
       degree: "Curso",
       institution: "Udemy",
       dataI18n: {
+        year: "course_completed_4",
         course: "title_desc_course_3",
         degree: "title_course",
       },
     },
     {
-      year: "2024",
+      year: "2024 - Concluído",
       course: "Playwright eXpress",
       degree: "Curso",
       institution: "Udemy",
+      dataI18n: {
+        year: "course_completed_4",
+      }
     },
     {
       year: "2023",
@@ -65,26 +104,29 @@ const educationList = [
       degree: "Curso",
       institution: "Udemy",
       dataI18n: {
+        year: "course_completed_3",
         course: "title_desc_course_5",
         degree: "title_course",
       },
     },
     {
-      year: "2022",
+      year: "2022 - Concluído",
       course: "Teste de Software",
       degree: "Curso",
       institution: "Gokurso",
       dataI18n: {
+        year: "course_completed_2",
         course: "title_desc_course_6",
         degree: "title_course",
       },
     },
     {
-      year: "2022",
+      year: "2022 - Concluído",
       course: "Javacript para QA",
       degree: "Curso",
       institution: "QAxperience",
       dataI18n: {
+        year: "course_completed_2",
         course: "title_desc_course_7",
         degree: "title_course",
       },

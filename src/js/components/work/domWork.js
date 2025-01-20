@@ -33,6 +33,24 @@ const portfolioProjects = [
         tooltip: "Github",
       },
     },
+    ,
+    {
+      imgSrc: "src/assets/img/cypress&cucumber.webp",
+      imgAlt: "img",
+      title: {
+        text: "Cypress com Cucumber mais Github Actions",
+        dataI18n: "cypress_cucumber",
+      },
+      description: {
+        text: "Automação de Teste com Cypress, Cucumber, Teste de Integração com GitHub Action.",
+        dataI18n: "desc_work_3",
+      },
+      techUsed: "Cypress, Cucumber, Github Actions",
+      link: {
+        href: "https://github.com/ErictonFelicidade86/cypress-cucumber-github-action-web",
+        tooltip: "Github",
+      },
+    }
 ];
 
 const portfolioContainer = document.getElementById("portfolio-container");

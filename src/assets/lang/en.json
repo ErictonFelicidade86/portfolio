@@ -25,7 +25,12 @@
   "title_course": "Course",
   "company": "ICTS Group",
   "status_progress": "2024 - Progress",
-  "completed": "Completed",
+  "status_progress_2": "2025 - Progress",
+  "course_completed": "2025 - Completed",
+  "course_completed_4": "2024 - Completed",
+  "course_completed_3": "2023 - Completed",
+  "course_completed_2": "2022 - Completed",
+  "completed": "2018 - 2021 - Completed",
   "course_pos": "MBA in Software Quality Management",
   "course_grad": "Information Systems",
   "faveni": "Venda Nova do Imigrante College - FAVENI",
@@ -47,6 +52,10 @@
   "title_e2e": "Automated E2E Testing",
   "desc_frontend": "I have experience in developing websites and web applications using Angular, JavaScript, TypeScript, and SCSS, ensuring modern and responsive interfaces.",
   "desc_automated_api": "I have experience in manual and automated testing, covering usability, performance, stress, functional, and non-functional tests. I use tools such as Cypress, Robot Framework, Rest-Assured, Insomnia, Postman, and K6, in addition to creating and documenting test plans.",
-  "desc_e2e": "I perform manual and automated end-to-end testing, covering usability, performance, stress, functional, non-functional, and exploratory tests. I work with tools such as Cypress, Playwright, and Robot Framework to ensure total product quality."
-
+  "desc_e2e": "I perform manual and automated end-to-end testing, covering usability, performance, stress, functional, non-functional, and exploratory tests. I work with tools such as Cypress, Playwright, and Robot Framework to ensure total product quality.",
+  "cypress_cucumber": "Cypress with Cucumber and GitHub Actions",
+  "desc_work_3": "Test Automation with Cypress, Cucumber, and Integration Testing using GitHub Actions.",
+  "title_desc_course_8": "End-To-End Testing with Cypress",
+  "title_desc_course_9": "Web Automation - Cypress and Cucumber",
+  "title_desc_course_10": "Testing Modern Applications with Cypress"
 }
