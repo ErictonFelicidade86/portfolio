@@ -45,11 +45,6 @@ const homeContent = {
         tooltip: "Linkedin",
       },
       {
-        href: "https://gitlab.com/Erictondeveloper",
-        icon: "bx bxl-gitlab",
-        tooltip: "Gitlab",
-      },
-      {
         href: "https://api.whatsapp.com/send/?phone=5592984660806&text&type=phone_number&app_absent=0",
         icon: "bx bxl-whatsapp",
         tooltip: "WhatsApp",
