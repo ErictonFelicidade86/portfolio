@@ -52,11 +52,11 @@ portFolioList.forEach((list, idx) => {
 })
 
 // Desativa o clique direito do mouse
-document.addEventListener('contextmenu', function (event) {
-    event.preventDefault();
-});
+// document.addEventListener('contextmenu', function (event) {
+//     event.preventDefault();
+// });
 
 // Desativa o atalho de copiar texto (Ctrl + C ou Cmd + C)
-document.addEventListener('copy', function (event) {
-    event.preventDefault();
-});
+// document.addEventListener('copy', function (event) {
+//     event.preventDefault();
+// });
